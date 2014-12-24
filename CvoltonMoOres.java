@@ -6,8 +6,10 @@ import net.minecraft.item.ItemStack;
 
 import com.cvolton.moores.generation.GeneratorsDef;
 import com.cvolton.moores.help.Reference;
+import com.cvolton.moores.init.ModArmor;
 import com.cvolton.moores.init.ModItems;
 import com.cvolton.moores.init.ModRecipes;
+import com.cvolton.moores.init.ModTools;
 import com.cvolton.moores.init.OreRegister;
 
 import net.minecraftforge.fml.common.Mod;
@@ -28,18 +30,24 @@ public class CvoltonMoOres {
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event)
 	{
-		System.out.println("Cvolton's Mo' Ores: Loading Items");
+		System.out.println("Cvolton's Mo' Ores: Loading Items & Blocks");
 		ModItems.init();
+		System.out.println("Cvolton's Mo' Ores: Loading Tools");
+		ModTools.init();
+		System.out.println("Cvolton's Mo' Ores: Loading Armor");
+		ModArmor.init();
 		System.out.println("Cvolton's Mo' Ores: Hooking up into the Ore Dictionary");
 		OreRegister.init();
-		System.out.println("Cvolton's Mo' Ores: Preparing the ore genarators");
+		System.out.println("Cvolton's Mo' Ores: Preparing the ore generators");
 		GeneratorsDef.init();
 	}
 	
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
+		System.out.println("Cvolton's Mo' Ores: Preparing the crafting recipes");
 		ModRecipes.init();
+		System.out.println("Cvolton's Mo' Ores: I'm fully loaded up!");
 	}
 
 }

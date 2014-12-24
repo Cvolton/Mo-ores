@@ -18,14 +18,21 @@ public static CreativeTabs mooresBlocks = new CreativeTabs("mooresBlocks") {
     @Override
     @SideOnly(Side.CLIENT)
     public Item getTabIconItem() {
-        return ModItems.ruby;
+        return Item.getItemFromBlock(ModItems.rubyblock);
     }
 };
 public static CreativeTabs mooresTools = new CreativeTabs("mooresTools") {
     @Override
     @SideOnly(Side.CLIENT)
     public Item getTabIconItem() {
-        return ModItems.ruby;
+        return ModTools.rubyPickaxe;
+    }
+};
+public static CreativeTabs mooresArmor = new CreativeTabs("mooresArmor") {
+    @Override
+    @SideOnly(Side.CLIENT)
+    public Item getTabIconItem() {
+        return ModArmor.rubyChestplate;
     }
 };
 }

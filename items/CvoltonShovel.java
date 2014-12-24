@@ -2,11 +2,11 @@ package com.cvolton.moores.items;
 
 import com.cvolton.moores.init.ModTabs;
 
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemSpade;
 
-public class CvoltonPickaxe extends ItemPickaxe{
+public class CvoltonShovel extends ItemSpade{
 
-	public CvoltonPickaxe(ToolMaterial material) {
+	public CvoltonShovel(ToolMaterial material) {
 		super(material);
 		setCreativeTab(ModTabs.mooresTools);
 	}
