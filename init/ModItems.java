@@ -26,8 +26,8 @@ public class ModItems {
 	public static Block amethystore = new AmethystOre().setUnlocalizedName("amethystore");
 	//Copper
 	public static Item copperIngot = new CvoltonItem().setUnlocalizedName("copperIngot");
-	public static Block amethystblock = new CvoltonBlock().setUnlocalizedName("copperIngot");
-	public static Block amethystore = new AmethystOre().setUnlocalizedName("copperIngot");
+	public static Block copperblock = new CvoltonBlock().setUnlocalizedName("copperblock");
+	public static Block copperore = new CopperOre().setUnlocalizedName("copperore");
 	public static void init(){
 		//ruby
 	RegisterHelper.registerItem(ruby);
