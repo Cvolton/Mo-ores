@@ -12,5 +12,9 @@ public static void init(){
 	OreDictionary.registerOre("gemAmethyst", ModItems.amethyst);
 	OreDictionary.registerOre("blockAmethyst", ModItems.amethystblock);
 	OreDictionary.registerOre("oreAmethyst", ModItems.amethystore);
+	//copper
+	OreDictionary.registerOre("ingotCopper", ModItems.copperIngot);
+	OreDictionary.registerOre("blockCopper", ModItems.copperblock);
+	OreDictionary.registerOre("oreCopper", ModItems.copperore);
 }
 }
