@@ -24,6 +24,10 @@ public class ModItems {
 	public static Item amethyst = new CvoltonItem().setUnlocalizedName("amethyst");
 	public static Block amethystblock = new CvoltonBlock().setUnlocalizedName("amethystblock");
 	public static Block amethystore = new AmethystOre().setUnlocalizedName("amethystore");
+	//Copper
+	public static Item copperIngot = new CvoltonItem().setUnlocalizedName("copperIngot");
+	public static Block amethystblock = new CvoltonBlock().setUnlocalizedName("copperIngot");
+	public static Block amethystore = new AmethystOre().setUnlocalizedName("copperIngot");
 	public static void init(){
 		//ruby
 	RegisterHelper.registerItem(ruby);
@@ -33,5 +37,9 @@ public class ModItems {
 	RegisterHelper.registerItem(amethyst);
 	RegisterHelper.registerBlock(amethystblock);
 	RegisterHelper.registerBlock(amethystore);
+	//copper
+	RegisterHelper.registerItem(copper);
+	RegisterHelper.registerBlock(copperblock);
+	RegisterHelper.registerBlock(copperore);
 }
 }
