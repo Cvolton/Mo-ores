@@ -2,6 +2,7 @@ package com.cvolton.moores.init;
 
 import com.cvolton.moores.help.Reference;
 import com.cvolton.moores.help.RegisterHelper;
+import com.cvolton.moores.items.CopperOre;
 import com.cvolton.moores.items.CvoltonBlock;
 import com.cvolton.moores.items.AmethystOre;
 import com.cvolton.moores.items.RubyOre;
@@ -38,7 +39,7 @@ public class ModItems {
 	RegisterHelper.registerBlock(amethystblock);
 	RegisterHelper.registerBlock(amethystore);
 	//copper
-	RegisterHelper.registerItem(copper);
+	RegisterHelper.registerItem(copperIngot);
 	RegisterHelper.registerBlock(copperblock);
 	RegisterHelper.registerBlock(copperore);
 }
