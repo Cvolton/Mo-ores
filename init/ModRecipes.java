@@ -17,6 +17,11 @@ public class ModRecipes {
 	RecipeHelper.ShovelRecipe(ModTools.rubyShovel, "gemRuby");
 	RecipeHelper.SwordRecipe(ModTools.rubySword, "gemRuby");
 	RecipeHelper.HoeRecipe(ModTools.rubyHoe, "gemRuby");
+	RecipeHelper.HeadRecipe(ModArmor.rubyHelmet, "gemRuby");
+	RecipeHelper.ChestRecipe(ModArmor.rubyChestplate, "gemRuby");
+	RecipeHelper.LegRecipe(ModArmor.rubyLeggins, "gemRuby");
+	RecipeHelper.BootsRecipe(ModArmor.rubyBoots, "gemRuby");
+	
 	//Amethyst Items
 	RecipeHelper.BlockRecipe(ModItems.amethystblock, "gemAmethyst");
 	RecipeHelper.PickaxeRecipe(ModTools.amethystPickaxe, "gemAmethyst");
@@ -24,5 +29,9 @@ public class ModRecipes {
 	RecipeHelper.ShovelRecipe(ModTools.amethystShovel, "gemAmethyst");
 	RecipeHelper.SwordRecipe(ModTools.amethystSword, "gemAmethyst");
 	RecipeHelper.HoeRecipe(ModTools.amethystHoe, "gemAmethyst");
+	RecipeHelper.HeadRecipe(ModArmor.amethystHelmet, "gemAmethyst");
+	RecipeHelper.ChestRecipe(ModArmor.amethystChestplate, "gemAmethyst");
+	RecipeHelper.LegRecipe(ModArmor.amethystLeggins, "gemAmethyst");
+	RecipeHelper.BootsRecipe(ModArmor.amethystBoots, "gemAmethyst");
 	}
 }

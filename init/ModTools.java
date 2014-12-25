@@ -14,6 +14,7 @@ import com.cvolton.moores.items.CvoltonSword;
 public class ModTools {
 	//NAME, harvestLevel, durability, mining speed, damage to mobs, enchantibility
 	public static ToolMaterial ruby = EnumHelper.addToolMaterial("ruby", 2, 450, 8.0F, 2.5F, 15);
+	public static ToolMaterial copper = EnumHelper.addToolMaterial("copper", 2, 175, 5.0F, 1.5F, 14);
 	public static ToolMaterial amethyst = EnumHelper.addToolMaterial("amethyst", 3, 750, 10.0F, 3.5F, 15);
 	//Ruby Tools
 	public static Item rubyPickaxe = new CvoltonPickaxe(ruby).setUnlocalizedName("rubyPickaxe");
@@ -27,6 +28,12 @@ public class ModTools {
 	public static Item amethystShovel = new CvoltonShovel(amethyst).setUnlocalizedName("amethystShovel");
 	public static Item amethystHoe = new CvoltonHoe(amethyst).setUnlocalizedName("amethystHoe");
 	public static Item amethystSword = new CvoltonSword(amethyst).setUnlocalizedName("amethystSword");
+	//copper Tools
+		public static Item copperPickaxe = new CvoltonPickaxe(copper).setUnlocalizedName("copperPickaxe");
+		public static Item copperAxe = new CvoltonPickaxe(copper).setUnlocalizedName("copperAxe");
+		public static Item copperShovel = new CvoltonShovel(copper).setUnlocalizedName("copperShovel");
+		public static Item copperHoe = new CvoltonHoe(copper).setUnlocalizedName("copperHoe");
+		public static Item copperSword = new CvoltonSword(copper).setUnlocalizedName("copperSword");
 public static void init(){
 	//Ruby Tools
 	RegisterHelper.registerItem(rubyPickaxe);

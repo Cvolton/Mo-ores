@@ -18,6 +18,18 @@ public class RecipeHelper {
 	public static void SwordRecipe(Item item, String item2){
 		GameRegistry.addRecipe(new ShapedOreRecipe(item, new Object[] {"X", "X", "#",'X', item2, '#', "stickWood"}));
 	}
+	public static void HeadRecipe(Item item, String item2){
+		GameRegistry.addRecipe(new ShapedOreRecipe(item, new Object[] {"XXX", "X X", 'X', item2}));
+	}
+	public static void BootsRecipe(Item item, String item2){
+		GameRegistry.addRecipe(new ShapedOreRecipe(item, new Object[] {"X X", "X X", 'X', item2}));
+	}
+	public static void ChestRecipe(Item item, String item2){
+		GameRegistry.addRecipe(new ShapedOreRecipe(item, new Object[] {"X X", "XXX", "XXX", 'X', item2}));
+	}
+	public static void LegRecipe(Item item, String item2){
+		GameRegistry.addRecipe(new ShapedOreRecipe(item, new Object[] {"XXX", "X X", "X X", 'X', item2}));
+	}
 	public static void HoeRecipe(Item item, String item2){
 		GameRegistry.addRecipe(new ShapedOreRecipe(item, new Object[] {"XX", " #", " #",'X', item2, '#', "stickWood"}));
 		GameRegistry.addRecipe(new ShapedOreRecipe(item, new Object[] {"XX", "# ", "# ",'X', item2, '#', "stickWood"}));
