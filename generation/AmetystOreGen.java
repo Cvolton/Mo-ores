@@ -12,10 +12,10 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraftforge.event.terraingen.TerrainGen;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
-public class RubyOreGen implements IWorldGenerator{
+public class AmetystOreGen implements IWorldGenerator{
 
 	private static final BlockPos[] Object = null;
-	private WorldGenMinable rubygen;
+	private WorldGenMinable amethystgen;
 	private BlockPos pos;
 
 	@Override
@@ -40,11 +40,11 @@ case 1:
 	}
 
 	private void generateInOverWorld(World world, Random random, int x, int z) {
-		for (int i = 0; i < 25; i++){ //ta petadvacitka je jak to je vzacny
+		for (int i = 0; i < 10; i++){ //ta petadvacitka je jak to je vzacny
 			int chunkX = x + random.nextInt(16);
-			int chunkY =random.nextInt(256);
+			int chunkY =random.nextInt(20);
 			int chunkZ = z + random.nextInt(16);
-			new WorldGenMinable(ModItems.rubyore.getDefaultState(), 4).generate(world, random, new BlockPos(chunkX,chunkY,chunkZ));
+			new WorldGenMinable(ModItems.amethystore.getDefaultState(), 4).generate(world, random, new BlockPos(chunkX,chunkY,chunkZ));
 		}
 	}
 

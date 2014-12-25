@@ -12,8 +12,8 @@ import net.minecraft.item.Item;
 import com.cvolton.moores.init.ModItems;
 import com.cvolton.moores.init.ModTabs;
 
-public class RubyOre extends Block {
-	public RubyOre()
+public class AmethystOre extends Block {
+	public AmethystOre()
 	{
 	super(Material.rock);
 	setCreativeTab(ModTabs.mooresBlocks);
@@ -22,7 +22,7 @@ public class RubyOre extends Block {
 	}
 	public Item getItemDropped(IBlockState state, Random rand, int fortune)
     {
-        return ModItems.ruby;
+        return ModItems.amethyst;
     }
 	public int quantityDropped(Random random)
     {
