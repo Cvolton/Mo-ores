@@ -47,5 +47,11 @@ public static void init(){
 	RegisterHelper.registerItem(amethystShovel);
 	RegisterHelper.registerItem(amethystHoe);
 	RegisterHelper.registerItem(amethystSword);
+	//copper
+	RegisterHelper.registerItem(amethystPickaxe);
+	RegisterHelper.registerItem(amethystAxe);
+	RegisterHelper.registerItem(amethystShovel);
+	RegisterHelper.registerItem(amethystHoe);
+	RegisterHelper.registerItem(amethystSword);
 }
 }
