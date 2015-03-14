@@ -13,7 +13,7 @@ public class ModArmor {
 	//      what the heck does that new int[] do? i get it now, its the armor points
 	public static ArmorMaterial ruby = EnumHelper.addArmorMaterial("ruby", "ruby", 18, new int[]{2, 7, 6, 2}, 10);
 	public static ArmorMaterial amethyst = EnumHelper.addArmorMaterial("amethyst", "amethyst", 45, new int[]{4, 8, 7, 4}, 30);
-	public static ArmorMaterial amethyst = EnumHelper.addArmorMaterial("copper", "copper", //dodelat45, new int[]{4, 8, 7, 4}, 30);
+	public static ArmorMaterial copper = EnumHelper.addArmorMaterial("copper", "copper", 15, new int[]{2, 5, 4, 1}, 14);
 //Rubinovy brneni!
 	public static Item rubyHelmet = new CvoltonArmor(ruby, 0, 0).setUnlocalizedName("rubyHelmet");
 public static Item rubyChestplate = new CvoltonArmor(ruby, 0, 1).setUnlocalizedName("rubyChestplate");

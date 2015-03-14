@@ -48,10 +48,10 @@ public static void init(){
 	RegisterHelper.registerItem(amethystHoe);
 	RegisterHelper.registerItem(amethystSword);
 	//copper
-	RegisterHelper.registerItem(amethystPickaxe);
-	RegisterHelper.registerItem(amethystAxe);
-	RegisterHelper.registerItem(amethystShovel);
-	RegisterHelper.registerItem(amethystHoe);
-	RegisterHelper.registerItem(amethystSword);
+	RegisterHelper.registerItem(copperPickaxe);
+	RegisterHelper.registerItem(copperAxe);
+	RegisterHelper.registerItem(copperShovel);
+	RegisterHelper.registerItem(copperHoe);
+	RegisterHelper.registerItem(copperSword);
 }
 }
